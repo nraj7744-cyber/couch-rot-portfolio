@@ -269,6 +269,17 @@ body.couch-lock-active::before {
   box-shadow: 0 0 15px var(--mag);
 }
 
+.nav-pillow {
+  background: transparent; border: 1px solid rgba(240, 255, 0, 0.35);
+  color: var(--yellow); font-family: 'Share Tech Mono', monospace; font-size: 0.7rem;
+  letter-spacing: 0.2em; padding: 0.4rem 1rem; cursor: pointer; transition: all 0.3s;
+  text-decoration: none; display: inline-block;
+}
+.nav-pillow:hover {
+  background: var(--yellow); color: var(--bg);
+  box-shadow: 0 0 15px var(--yellow);
+}
+
 .btn-runaway {
   transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -507,6 +518,7 @@ body.couch-lock-active::before {
       <li><a href="#skills">// SKILLS</a></li>
       <li><a href="#projects">// DREAMS</a></li>
       <li><a href="#contact">// CONTACT</a></li>
+      <li><a href="https://ko-fi.com/" target="_blank" class="nav-pillow" id="buy-pillow-btn">// BUY ME A PILLOW</a></li>
       <li><button id="couch-mode-toggle" class="nav-toggle" aria-label="Toggle Couch Mode" title="Toggle Couch Lock Mode">// COUCH LOCK</button></li>
     </ul>
   </nav>
@@ -641,6 +653,46 @@ body.couch-lock-active::before {
       <div class="contact-sub" style="margin-bottom: 0.8rem;">// VOID_MAILBOX.LOG (RECENT MESSAGES BEAMED INTO THE ABYSS)</div>
       <div class="terminal" style="max-height: 250px; overflow-y: auto; padding: 1.2rem; font-family: 'Share Tech Mono', monospace; font-size: 0.75rem;" id="void-mailbox-log">
         <div style="color: var(--text-dim);">[sys] establishing connection to void logs...</div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="divider"></div>
+  <section class="full-section" id="monetize" aria-label="Monetize">
+    <div class="sec-header rv">
+      <span class="sec-num">05</span>
+      <h2 class="sec-title">APPROVED_ROT_EQUIPMENT</h2>
+      <div class="sec-line"></div>
+    </div>
+    <p class="contact-copy" style="margin-bottom: 2rem;">Support my lifestyle by purchasing certified, high-grade lounging equipment. (Warning: Using these items may lead to complete loss of career goals, chronic horizontal states, and infinite procrastination cycles).</p>
+    
+    <div class="projects-grid">
+      <!-- Item 1 -->
+      <div class="proj-card rv" style="transition-delay:.05s">
+        <div class="proj-num">ITEM_001</div>
+        <div class="proj-name">THE QUANTUM WEIGHTED BLANKET</div>
+        <div class="proj-status">// STATUS: ACTIVELY BLOCKING MOTIVATION</div>
+        <p class="proj-desc">Engineered with high-density micro-beads to provide up to 25lbs of pure structural gravitational lock, ensuring you physically cannot get up to write code.</p>
+        <div class="proj-tags"><span class="tag ty">25 lbs</span><span class="tag tm">Couch Anchor</span><span class="tag tc">Must-Have</span></div>
+        <a href="https://www.amazon.com/s?k=weighted+blanket" target="_blank" class="btn btn-secondary" style="margin-top: 1rem; width: 100%; text-align: center;">ACQUIRE ANCHOR</a>
+      </div>
+      <!-- Item 2 -->
+      <div class="proj-card rv" style="transition-delay:.15s">
+        <div class="proj-num">ITEM_002</div>
+        <div class="proj-name">ANTI-PRODUCTIVITY BLUE GLASSES</div>
+        <div class="proj-status">// STATUS: FILTERING AMBITION</div>
+        <p class="proj-desc">Specially tinted lenses designed to filter out visual triggers of active work, like to-do lists, calendar reminders, and empty Git repositories.</p>
+        <div class="proj-tags"><span class="tag tc">Amber Tint</span><span class="tag ty">Sleep-Ready</span><span class="tag tm">No Ambition</span></div>
+        <a href="https://www.amazon.com/s?k=blue+light+blocking+glasses" target="_blank" class="btn btn-secondary" style="margin-top: 1rem; width: 100%; text-align: center;">ACQUIRE SHIELD</a>
+      </div>
+      <!-- Item 3 -->
+      <div class="proj-card rv" style="transition-delay:.25s">
+        <div class="proj-num">ITEM_003</div>
+        <div class="proj-name">SOFA ALIGNMENT CUSHION</div>
+        <div class="proj-status">// STATUS: ERGONOMIC ROT SUPPORT</div>
+        <p class="proj-desc">Architecturally optimized lumbar support designed for the left side of the sofa. Relieves neck strain while maintaining a perfect 45-degree phone-scrolling angle.</p>
+        <div class="proj-tags"><span class="tag tm">45° Angle</span><span class="tag tc">Infinite Comfort</span><span class="tag ty">Back Saver</span></div>
+        <a href="https://www.amazon.com/s?k=lumbar+support+pillow+sofa" target="_blank" class="btn btn-secondary" style="margin-top: 1rem; width: 100%; text-align: center;">ACQUIRE SUPPORT</a>
       </div>
     </div>
   </section>
